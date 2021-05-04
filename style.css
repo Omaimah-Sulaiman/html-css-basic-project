@@ -1,0 +1,28 @@
+ div {
+  padding: px50 ;
+  color: aqua;
+}
+.imgMain{
+  width: 100% ;
+
+}
+.subImg {
+  width: 30%;
+  display: inline-block;
+}
+
+#section {
+  border-style: outset; 
+}
+.footer{
+    height: 100px;
+    background: bisque;
+}
+
+header{
+ padding:10px ;
+    background: bisque;
+}
+#footer{
+  padding: 10px
+}
