@@ -1,8 +1,12 @@
  div {
   padding: px50 ;
+<<<<<<< HEAD
   color: rgb(175, 190, 190);
   margin-top: 50px;
   
+=======
+  color: aqua;
+>>>>>>> 2f2a219049cebf247bdb9490e6b9031fd1543d0a
 }
 .imgMain{
   width: 100% ;
@@ -10,9 +14,13 @@
 }
 .subImg {
   width: 30%;
+<<<<<<< HEAD
   margin-left: 10%;
   display: inline-block;
   border-radius: 50%;
+=======
+  display: inline-block;
+>>>>>>> 2f2a219049cebf247bdb9490e6b9031fd1543d0a
 }
 
 #section {
@@ -20,12 +28,17 @@
 }
 .footer{
     height: 100px;
+<<<<<<< HEAD
     background: rgb(228, 213, 195);
     margin-left: outo
+=======
+    background: bisque;
+>>>>>>> 2f2a219049cebf247bdb9490e6b9031fd1543d0a
 }
 
 header{
  padding:10px ;
+<<<<<<< HEAD
     background: rgb(228, 213, 195);
     margin-left: 3px
 }
@@ -58,3 +71,10 @@ button:hover {
 body{
   background-color:rgb(102, 107, 107) 
 }
+=======
+    background: bisque;
+}
+#footer{
+  padding: 10px
+}
+>>>>>>> 2f2a219049cebf247bdb9490e6b9031fd1543d0a
