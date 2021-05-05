@@ -1,6 +1,6 @@
-// var person = prompt("Please enter your name")
+var person = prompt("Please enter your name")
 
-// alert( 'Hello ' +  person)
+alert( 'Hello ' +  person)
 
 
 var food = prompt('what kinf of food you favourite')
