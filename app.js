@@ -56,13 +56,13 @@
   
 // }
 
-var favMail = prompt('Whats your favourite mail?')
+var favMail = prompt('can you guess the type of food here?')
 
 while (favMail !== 'italy'&& favMail !=='chinese'&& favMail !=='japanese' ){
- favMail = prompt('try again') 
+ favMail = prompt('try again (italy ,chinese,japanese)') 
 }
 
-var mailCount = prompt('How many mail do you want to see ?')
+var mailCount = prompt('How many meal do you want to see ?')
 
 
 var image = ''
