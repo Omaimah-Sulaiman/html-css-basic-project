@@ -1,71 +1,69 @@
+
+
+
+
+
 // var person = prompt("Please enter your name")
 
 // alert( 'Hello ' +  person)
 
 
-// var food = prompt('what kind of food you favourite')
+ 
+function getTypeOfFood() {
+      var food=prompt('what kind of food you favourite')
+      if(food=='chinese food'){
+      document.write(`<style>
+      .italySection{
+      display: none;
 
+      }
+      .japaneseSection{
+      display: none ;
 
-// if(food=='chinese food'){
-//  document.write(`<style>
-// .italySection{
-// display: none;
+      }
+      </style>`)
 
-// }
-// .japaneseSection{
-// display: none ;
+      }else if ( food=='italy food'){
+        document.write(`<style>
+      .chineseSection{
+      display: none;
+      }
+      .japaneseSection{
+      display: none ;
+      }
+      </style>`)
 
-// }
-// </style>`)
+      }else if ( food == ' japanese food'){
+        document.write(`<style>
+      .italySection{
+      display: none;
 
-// }else if ( food=='italy food'){
-//    document.write(`<style>
-// .chineseSection{
-// display: none;
+      }
+          </style>`)
 
-// }
-// .japaneseSection{
-// display: none ;
+}
 
-// }
-// </style>`)
-
-
-// }
-
-
-// else if ( food == ' japanese food'){
-//    document.write(`<style>
-// .italySection{
-// display: none;
-
-// }
-
-// else{
-  
-// }
-
-
+}
 
 // var  rate = prompt('rate our website from 1 to 5 ')
 // if (rate == 1 || rate ==2){
-
 //    document.write(`<span style='font-size:100px;'>&#128531</span>;`)
 // }else{
 //   document.write(`<span style='font-size:100px;'>&#128525</span>;`)
   
 // }
 
-var favMail = prompt('Whats your favourite mail?')
-
+  var favMail = prompt('can you guess the type of food here?')
+function getFood(){
 while (favMail !== 'italy'&& favMail !=='chinese'&& favMail !=='japanese' ){
- favMail = prompt('try again') 
+ favMail = prompt('try again (italy ,chinese,japanese)') 
 }
-
-var mailCount = prompt('How many mail do you want to see ?')
+}
 
 
 var image = ''
+function getImage(){
+  var mailCount = prompt('How many meal do you want to see ?')
 for(var x = 0; x < mailCount ;x++){
   if(favMail ==='italy'){
     image = image + '<img src="https://www.tasteofhome.com/wp-content/uploads/2018/01/Stamp-of-Approval-Spaghetti-Sauce_EXPS_MTCBBZ17_39564_D02_24_2b-5.jpg?resize=768,768">'
@@ -76,7 +74,8 @@ for(var x = 0; x < mailCount ;x++){
   }
 }
   document.write(image)
+}
 
-
-
-
+// getTypeOfFood()
+getFood()
+getImage()
