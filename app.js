@@ -53,12 +53,14 @@ function getTypeOfFood() {
   
 // }
 
+
   var favMail = prompt('can you guess the type of food here?')
 function getFood(){
 while (favMail !== 'italy'&& favMail !=='chinese'&& favMail !=='japanese' ){
  favMail = prompt('try again (italy ,chinese,japanese)') 
 }
 }
+
 
 
 var image = ''
