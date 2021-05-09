@@ -45,7 +45,7 @@ function getTypeOfFood(){
 
 }
 
-function getRate{
+function getRate(){
 var  rate = prompt('rate our website from 1 to 5 ')
 if (rate == 1 || rate ==2){
    document.write(`<span style='font-size:100px;'>&#128531</span>;`)
