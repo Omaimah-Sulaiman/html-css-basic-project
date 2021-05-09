@@ -9,7 +9,7 @@
 
 
  
-function getTypeOfFood() {
+function getTypeOfFood(){
       var food=prompt('what kind of food you favourite')
       if(food=='chinese food'){
       document.write(`<style>
@@ -45,14 +45,15 @@ function getTypeOfFood() {
 
 }
 
-// var  rate = prompt('rate our website from 1 to 5 ')
-// if (rate == 1 || rate ==2){
-//    document.write(`<span style='font-size:100px;'>&#128531</span>;`)
-// }else{
-//   document.write(`<span style='font-size:100px;'>&#128525</span>;`)
+function getRate{
+var  rate = prompt('rate our website from 1 to 5 ')
+if (rate == 1 || rate ==2){
+   document.write(`<span style='font-size:100px;'>&#128531</span>;`)
+}else{
+  document.write(`<span style='font-size:100px;'>&#128525</span>;`)
   
-// }
-
+}
+}
 
   var favMail = prompt('can you guess the type of food here?')
 function getFood(){
@@ -78,6 +79,7 @@ for(var x = 0; x < mailCount ;x++){
   document.write(image)
 }
 
-// getTypeOfFood()
-getFood()
-getImage()
+getTypeOfFood();
+getFood();
+getImage();
+getRate();
